@@ -14,6 +14,10 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+@font-face {
+    font-family: 'comfortaa';
+    src: url(../assets/font/Comfortaa_Regular.ttf);
+}
 .side-box{
     float: left;
     border-right:2px solid white;
@@ -46,23 +50,59 @@ body {
     gap: 20px;
     border-radius: 9px;
     backdrop-filter: blur(8px);
-    background-color: rgba(0,191,255, 0.096);
+    background-color: rgba(0,0,0, 0.09);
     box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
     border: 0px rgba(255,255,255,0.4) solid;
     border-bottom: 0px rgba(40,40,40,0.35) solid;
     border-right: 0px rgba(40,40,40,0.35) solid;
 }
 .name-box{
+    font-size: 1.7rem;
+    font-family: 'comfortaa';
     margin: 1rem auto 2rem;
     position: relative;
     width: 20rem;
     height: 50px;
+    transition: all 0.3s;
+}
+.name-box:hover{
+    font-size: 2rem;
+    font-family: 'comfortaa';
+    margin: 1rem auto 2rem;
+    position: relative;
+    width: 21rem;
+    height: 50px;
+    transition: all 0.3s;
+    backdrop-filter: blur(0px);
 }
 .text-box{
+
+    padding-top: 20px;
+    display: block;
+    font-family: 'comfortaa';
     margin: 0 auto;
     position: relative;
     width: 20rem;
-    height: 22rem;
+    height: 18rem;
+    transition: all 0.3s;
+}
+.text-box:hover{
+    font-size: 1.2rem;
+    font-family: 'comfortaa';
+    margin: 0 auto;
+    position: relative;
+    width: 20.3rem;
+    height: 18.5rem;
+    transition: all 0.3s;
+    backdrop-filter: blur(0px);
+}
+.text-box p{
+    padding-top: 10px;
+    transition: all 0.3s;
+}
+.text-box:hover p{
+    padding-top: 0.6rem;
+    transition: all 0.3s;
 }
 .header{
     width: 100%;
