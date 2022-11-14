@@ -41,6 +41,7 @@ body {
     left: 50%;
     right: 50%;
     margin-left: -4rem;
+    transition: all 0.3s;
 }
 .glass{
     color: white;
@@ -91,7 +92,7 @@ body {
     font-family: 'comfortaa';
     margin: 0 auto;
     position: relative;
-    width: 20.3rem;
+    width: 20.5rem;
     height: 18.5rem;
     transition: all 0.3s;
     backdrop-filter: blur(0px);
@@ -108,4 +109,35 @@ body {
     width: 100%;
     height: 8rem;
     position: relative;
+}
+.contact{
+    margin-top: 2rem;
+    display: flex;
+    position: relative;
+}
+.icons{
+    margin: 0 auto;
+    background-size: cover;
+    width: 3.5rem;
+    height: 3.5rem;
+    transition: all 0.3s;
+}
+
+.github{
+    background-image: url(../assets/github.svg);
+    /* mask-image: url(../assets/github.svg) */
+}
+.Bilibili{
+    background-image: url(../assets/bilibili-line.svg);
+    /* mask-image: url(../assets/github.svg) */
+}
+.Wechat{
+    background-image: url(../assets/wechat.svg);
+    /* mask-image: url(../assets/github.svg) */
+}
+.icons:hover {
+    stroke: white;
+    width: 4rem;
+    height: 4rem;
+    transition: all 0.3s;
 }
