@@ -77,7 +77,6 @@ body {
     backdrop-filter: blur(0px);
 }
 .text-box{
-
     padding-top: 20px;
     display: block;
     font-family: 'comfortaa';
@@ -140,4 +139,64 @@ body {
     width: 4rem;
     height: 4rem;
     transition: all 0.3s;
+}
+.main{
+    text-align: center;
+    margin-top: 15%;
+    display: flex;
+}
+.message-box{
+
+    padding-top: 20px;
+    display: block;
+    font-family: 'comfortaa';
+    margin: 0 auto;
+    position: relative;
+    width: 24rem;
+    height: 25.5rem;
+    transition: all 0.3s;
+}
+.message-box:hover{
+    font-size: 1.2rem;
+    font-family: 'comfortaa';
+    margin: 0 auto;
+    position: relative;
+    width: 24.5rem;
+    height: 26rem;
+    transition: all 0.3s;
+    backdrop-filter: blur(0px);
+}
+.message-box p{
+    padding-top: 10px;
+    transition: all 0.3s;
+}
+.message-box:hover p{
+    padding-top: 0.6rem;
+    transition: all 0.3s;
+}
+@media screen and (max-width: 1420px) {
+    .side-box{
+        float: none;
+        border-right:none;
+        width: 35rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .side-box{
+        float: none;
+        border-right:none;
+        width: 35rem;
+    }
+    .main{
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+        display: inline-block;
+    }
+    .message-box{
+        margin: 2rem auto;
+    }
+    .message-box:hover{
+        margin: 2rem auto;
+    }
 }
