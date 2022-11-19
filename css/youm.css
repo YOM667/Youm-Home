@@ -154,7 +154,6 @@ body {
     display: flex;
 }
 .message-box{
-
     padding-top: 20px;
     display: block;
     font-family: 'comfortaa';
@@ -213,7 +212,16 @@ body {
         /* margin: 2rem; */
     }
     .name-box{
-        width: 20rem;
+        width: 80%;
+    }
+    .name-box:hover{
+        width: 85%;
+    }
+    .text-box{
+        width: 80%;
+    }
+    .text-box:hover{
+        width: 85%;
     }
     .main{
         margin-top: 5rem;
@@ -225,10 +233,12 @@ body {
         display: inline-block;
     }
     .message-box{
-        margin: 1rem auto;
+        width: 80%;
+        margin: 2rem auto 1rem auto;
     }
     .message-box:hover{
-        margin: 1rem auto;
+        width: 85%;
+        margin: 2rem auto 1rem auto;
     }
     .contact{
         margin-top: 2rem;
